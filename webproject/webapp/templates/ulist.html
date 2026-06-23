@@ -1,0 +1,15 @@
+{% extends "master.html" %}
+
+{% block body %}
+
+<div id="main">
+<h1>User LIST Page</h1>
+<!-- {{l}} -->
+
+{% for i in l%}
+    <p>{{ i }}</p>
+{% endfor %}
+
+</div>
+
+{% endblock %}

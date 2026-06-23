@@ -1,0 +1,45 @@
+#nav{
+    background-color: lightcyan;
+    padding: 10px;
+}
+
+h3{
+    display: inline;
+    padding: 10px;
+}
+
+#demo{
+    background-color: aquamarine;
+    display: flex;
+    /* flex-direction: colum; */
+    justify-content: space-evenly;
+
+}
+
+h2{
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#side{
+        background-color:darksalmon;
+        position: fixed;
+        left: 0;
+        top: 80px;
+        width: 80px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+#main{
+        margin-left: 100px;
+        margin-top: 30px;
+}
